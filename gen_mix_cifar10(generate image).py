@@ -288,22 +288,22 @@ def gen_image_Gauss_8(train_dir,output):
                 plt.imsave(output + "\\" +  re.sub(".jpg","",image)+"_"+str(epoch)+".jpg"  , tensor_to_numpy(generated[0]))
 
 
-train_dir=r'E:\m1095508_cifar10\dataset1004\data5000_imbalance_train\0'
-output = r'E:\m1095508_cifar10\gen_mix_全部集中'
+train_dir=
+output = 
 gen_image_Gauss_0(train_dir, output)
 
-train_dir=r'E:\m1095508_cifar10\dataset1004\data5000_imbalance_train\2'
-output = r'E:\m1095508_cifar10\gen_mix_全部集中'
+train_dir=
+output =
 gen_image_Gauss_2(train_dir, output)
 
-train_dir=r'E:\m1095508_cifar10\dataset1004\data5000_imbalance_train\4'
-output = r'E:\m1095508_cifar10\gen_mix_全部集中'
+train_dir=
+output = 
 gen_image_Gauss_4(train_dir, output)
 
-train_dir=r'E:\m1095508_cifar10\dataset1004\data5000_imbalance_train\6'
-output = r'E:\m1095508_cifar10\gen_mix_全部集中'
+train_dir=
+output = 
 gen_image_Gauss_6(train_dir, output)
 
-train_dir=r'E:\m1095508_cifar10\dataset1004\data5000_imbalance_train\8'
-output = r'E:\m1095508_cifar10\gen_mix_全部集中'
+train_dir=
+output = 
 gen_image_Gauss_8(train_dir, output)
